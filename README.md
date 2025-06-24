@@ -325,26 +325,6 @@ aws cloudwatch put-metric-alarm \
 - Resource usage optimization
 - Horizontal scaling support
 
-## Security
-
-### Security Measures
-- **Authentication**: AWS IAM integration with least privilege
-- **Encryption**: TLS in transit, AWS KMS at rest
-- **Input Validation**: All inputs sanitized and validated
-- **Security Scanning**: Automated security scans in CI/CD
-
-### Privacy Controls
-- **Data Minimization**: Only collect necessary data
-- **Anonymization**: PII removal functions implemented
-- **GDPR Compliance**: Privacy by design principles
-- **Data Retention**: 90-day automatic deletion policy
-
-### Responsible AI Practices
-- **Bias Detection**: Built-in algorithmic fairness monitoring
-- **Transparency**: Clear explanation of complexity classification
-- **Human Oversight**: Manual review processes documented
-- **Ethical Guidelines**: Responsible AI practices implemented
-
 ## Testing
 
 ### Test Suite
@@ -370,23 +350,6 @@ pytest tests/test_performance.py -v
 - **Security Scanning**: Bandit, Safety, Trivy integration
 - **Automated Deployment**: Docker build and AWS deployment
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and test thoroughly
-4. Submit a pull request with detailed description
-
-### Development Guidelines
-- Follow PEP 8 code style
-- Write tests for new features
-- Update documentation
-- Run security scans before submission
-
-## License
-
-This project is part of the Operating AI course at Duke University.
-
 ## Project Structure
 
 ```
@@ -408,25 +371,3 @@ AI-Pipeline-Analytics-Dashboard/
 ├── chatbot/               # Chatbot integration
 └── analytics-env/         # Virtual environment
 ```
-
-## Technical Specifications
-
-### Architecture
-- **Serverless Microservices**: AWS Lambda, Step Functions, DynamoDB
-- **Analytics Engine**: Python pandas, NumPy, statsmodels
-- **Visualization**: Streamlit, Plotly interactive charts
-- **Monitoring**: CloudWatch, DynamoDB logging
-
-### Scalability
-- **Concurrent Executions**: 1000+ (configurable)
-- **Data Processing**: 5000+ records/second
-- **Memory Efficiency**: Linear memory scaling O(n)
-- **Horizontal Scaling**: Docker containerization support
-
-### Compliance
-- **Security**: Comprehensive security documentation and scanning
-- **Privacy**: GDPR compliance with privacy by design
-- **Quality**: 85%+ test coverage with automated CI/CD
-- **Documentation**: Complete technical and user documentation
-
-This AI Pipeline Analytics Dashboard demonstrates production-ready engineering practices with comprehensive monitoring, security, and scalability features suitable for enterprise deployment.
