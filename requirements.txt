@@ -1,0 +1,11 @@
+boto3
+backoff
+requests
+streamlit
+pandas
+plotly
+numpy
+scikit-learn
+seaborn
+matplotlib
+statsmodels
